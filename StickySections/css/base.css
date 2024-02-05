@@ -7,14 +7,14 @@
 }
 
 :root {
-	font-size: 16px;
+	font-size: 13px;
 	--page-padding: 1.5rem;
 	--color-text: #fff;
 	--color-bg: #12100e;
 	--color-link: rgba(255,255,255,0.6);
 	--color-link-hover: #fff;
-	--color-bg-1: #2f251e;
-	--color-bg-2: #43392f;
+	--color-bg-1: #9d9d9d;
+	--color-bg-2: #c7c7c7;
 	--color-bg-3: var(--color-bg-1);
 	--color-bg-4: var(--color-bg-2);
 	--color-bg-5: var(--color-bg-1);
