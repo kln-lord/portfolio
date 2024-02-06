@@ -241,7 +241,7 @@ a:focus-visible {
 }
 
 .frame__demos::before {
-	content: "Variations:";
+	content: "Projects:";
 }
 
 .frame__heading {
