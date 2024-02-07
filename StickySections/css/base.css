@@ -212,6 +212,7 @@ a:focus-visible {
 }
 
 .frame__demos {
+	font-family: 'Blanka', sans-serif;
 	grid-area: demos;
 	display: flex;
 	align-items: center;
