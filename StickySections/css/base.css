@@ -222,13 +222,13 @@ a:focus-visible {
 }
 
 .frame__demos > * {
-	width: 2rem;
+	/* width: 2rem; */
 	display: block;
 	flex: none;
 	text-decoration: none;
 	border-radius: 50%;
-	aspect-ratio: 1;
-	border: 1px solid var(--color-link-hover);
+	/* aspect-ratio: 1; */
+	/* border: 1px solid var(--color-link-hover); */
 	display: grid;
 	place-items: center;
 	padding-bottom: 0.3rem;
