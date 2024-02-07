@@ -40,7 +40,7 @@
 					<a href="index15.html">15</a> -->
 					Soon
 				</nav>
-				<nav class="frame__demos" style="right:3rem">
+				<nav class="frame__demos" id="bottomDiv" style="right:3rem">
 					CV: 
 					<!-- <a href="project1.html">1</a> -->
 					<!-- <span>1</span>
@@ -118,5 +118,20 @@
 		<script src="js/lenis.min.js"></script>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script type="module" src="js/demo1/index.js"></script>
+		<script>
+			window.addEventListener('scroll', function() {
+				var bottomDiv = document.getElementById('bottomDiv');
+				var scrollHeight = window.innerHeight + window.scrollY;
+				var documentHeight = document.body.scrollHeight;
+				
+				// If the scroll height plus the window height is equal to or greater than the document height
+				// it means the user has reached the bottom of the page
+				if (scrollHeight >= documentHeight-10) {
+					bottomDiv.style.opacity = '0'; // Hide the div
+				} else {
+					bottomDiv.style.opacity = '1'; // Show the div
+				}
+			});
+			</script>
 	</body>
 </html>
