@@ -467,6 +467,8 @@ i {
 		bottom: 2rem;
 	}
 	.frame--footer {
+		font-family: 'blanka';
+		letter-spacing: 3px;
 		padding-bottom: 0;
 		grid-template-areas: 'credits ...' '... author';
 		grid-template-columns: 1fr 1fr;
