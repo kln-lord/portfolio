@@ -25,7 +25,7 @@ body {
 	margin: 0;
 	color: var(--color-text);
 	letter-spacing: 3px;
-	background-color: var(--color-bg); 
+	background-color: #181818; 
 	font-family: 'Blanka', sans-serif;
 	font-variation-settings: "slnt" 0, "wdth" 150, "wght" 500, "INKT" 0;
 	-webkit-font-smoothing: antialiased;
