@@ -394,6 +394,7 @@ i {
 }
 
 .content__title {
+	font-family: 'Blanka', sans-serif;
 	grid-area: content-title;
 	/* letter-spacing: -0.095em; */
 	text-transform: uppercase;
