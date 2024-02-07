@@ -297,7 +297,7 @@ i {
 }
 
 .text-large {
-	font-size: clamp(0rem,2vw,2rem);
+	font-size: clamp(0rem,1.5vw,1.5rem);
 	max-width: 900px;
 	margin: 0 0 0.85em 0;
 	line-height: 1.2;
