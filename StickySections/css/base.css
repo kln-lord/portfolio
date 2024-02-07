@@ -240,9 +240,9 @@ a:focus-visible {
 	filter: invert(100%);
 }
 
-.frame__demos::before {
+/* .frame__demos::before {
 	content: "Projects:";
-}
+} */
 
 .frame__heading {
 	grid-area: heading;
