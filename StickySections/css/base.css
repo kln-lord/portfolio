@@ -192,6 +192,8 @@ a:focus-visible {
 }
 
 .frame__title {
+  font-family: 'blanka';
+  letter-spacing: 3px;	
   grid-area: title;
   font-size: inherit;
   margin: 0;
