@@ -441,6 +441,9 @@ i {
 .bg-5 { background: var(--color-bg-5); }
 .bg-6 { background: var(--color-bg-6); }
 
+@media only screen and (max-width: 768px) {
+
+}
 @media screen and (min-width: 63em) {
 	body {
 		--page-padding: 2rem 3rem;
@@ -465,7 +468,7 @@ i {
 		align-self: end;
 	}
 	.frame__demos {
-		position: fixed;
+		position: absolute;
 		bottom: 2rem;
 	}
 	.frame--footer {
