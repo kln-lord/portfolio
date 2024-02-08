@@ -127,9 +127,9 @@
 				// If the scroll height plus the window height is equal to or greater than the document height
 				// it means the user has reached the bottom of the page
 				if (scrollHeight >= documentHeight-10) {
-					bottomDiv.style.opacity = '0'; // Hide the div
+					bottomDiv.style.display = 'none'; // Hide the div
 				} else {
-					bottomDiv.style.opacity = '1'; // Show the div
+					bottomDiv.style.display = 'flex'; // Show the div
 				}
 			});
 			</script>
