@@ -42,6 +42,7 @@
 			</header>
 			<div class="wrap">
                 <iframe
+					id="myIframe"
                     src="https://vis.ahmedbendrioua.tech/?embed=true"
                     height="600"
                     style="width: 100%; border: none;overflow: hidden;"
@@ -89,5 +90,9 @@
 		<script src="js/lenis.min.js"></script>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script type="module" src="js/demo1/index.js"></script>
+		<script src="js/iframeResizer.min.js"></script>
+		<script>
+			iFrameResize({ log: true }, '#myIframe')
+		</script>
 	</body>
 </html>
